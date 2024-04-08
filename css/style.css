@@ -1,0 +1,47 @@
+header{
+    background-color: var(--cor-9);
+}
+
+:root {
+    --cor-1: #BF9474;
+    --cor-2: #BD9B60;
+    --cor-3: #DCD59A;
+    --cor-4: #F1E6B2;
+    --cor-5: #ADCAB8;
+    --cor-6: #9CAF88;
+    --cor-8: #BD9B60;
+    --cor-9: #655448;
+}
+
+h1{
+    color: var(--cor-9);
+}
+
+main{
+    margin:10px;
+    padding: 10px;
+}
+
+
+.btn-success{
+    background-color: var(--cor-6);
+}
+
+.card-img-top {
+    width: 269.86px;
+    height: 286.44px;
+    object-fit: cover; /* para manter a proporção da imagem */
+  }
+
+.indicacoes{
+    margin: 15px;
+    padding: 10px;
+}
+
+.formulario{
+  margin: 10rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
